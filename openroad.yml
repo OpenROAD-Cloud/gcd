@@ -1,0 +1,10 @@
+platform: nangate45   # ['nangate45']
+
+design_name: gcd   
+
+verilog_files:
+  - gcd.v
+sdc_file: constraint.sdc
+
+die_area: "0 0 100.13 100.8"
+core_area: "10.07 11.2 90.25 91"
